@@ -8,7 +8,7 @@ export const bland: Extension = {
   key: 'bland',
   title: 'Bland.ai',
   icon_url:
-    'https://media.licdn.com/dms/image/v2/D560BAQE-b-C6pJqcpw/company-logo_200_200/company-logo_200_200/0/1736593343328/bland_ai_logo?e=2147483647&v=beta&t=wAH3FJTHXF342oCjj4I7nJzuIdUH9mglNQYx8lx6g-c',
+    'https://res.cloudinary.com/dbhuqasw0/image/upload/v1754994275/bland_ai_logo_eje5b9.jpg',
   description: 'Automate your phone calls with AI',
   category: Category.COMMUNICATION,
   author: {
