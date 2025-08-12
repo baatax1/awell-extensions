@@ -78,7 +78,7 @@ export const importStatus: Action<
           ) {
             break
           }
-          await new Promise((resolve) => setTimeout(resolve, (1000 * 2) ^ i)) // exponential backoff
+          await new Promise((resolve) => setTimeout(resolve, (1000 * 2) ** i)) // exponential backoff
           resp = (
             await sendgridClient.marketing.contacts.importStatus(jobId)
           )[0].body
